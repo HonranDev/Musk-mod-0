@@ -1,0 +1,94 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Página-1" id="LSfzVVwSdZ3_qvVMJNV7">
+    <mxGraphModel dx="1766" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Factorial&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Escribe un programa que tome un número como entrada y calcule su factorial&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="4" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qTmo6rcFVAZ_YOJTTcvP-2" target="qTmo6rcFVAZ_YOJTTcvP-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-3" value="FINAL" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="880" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qTmo6rcFVAZ_YOJTTcvP-4" target="qTmo6rcFVAZ_YOJTTcvP-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qTmo6rcFVAZ_YOJTTcvP-4" target="qTmo6rcFVAZ_YOJTTcvP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-4" value="isNaN(num)&lt;div&gt;||&lt;/div&gt;&lt;div&gt;num &amp;lt;= 0&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="390" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qTmo6rcFVAZ_YOJTTcvP-5" target="qTmo6rcFVAZ_YOJTTcvP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-5" value="i &amp;lt;= num" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="840" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qTmo6rcFVAZ_YOJTTcvP-6" target="qTmo6rcFVAZ_YOJTTcvP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-6" value="factorial = factorial * i" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1070" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qTmo6rcFVAZ_YOJTTcvP-7" target="qTmo6rcFVAZ_YOJTTcvP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-7" value="Let factorial = 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="610" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qTmo6rcFVAZ_YOJTTcvP-8" target="qTmo6rcFVAZ_YOJTTcvP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-8" value="Let i = 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="720" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qTmo6rcFVAZ_YOJTTcvP-9" target="qTmo6rcFVAZ_YOJTTcvP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-9" value="PRINT &quot; Introducir número válido&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="450" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-10" value="PRINT&amp;nbsp; factorial&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="263" y="1190" width="275" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qTmo6rcFVAZ_YOJTTcvP-11" target="qTmo6rcFVAZ_YOJTTcvP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-11" value="Leer num" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="280" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qTmo6rcFVAZ_YOJTTcvP-12" target="qTmo6rcFVAZ_YOJTTcvP-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-12" value="i + +&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qTmo6rcFVAZ_YOJTTcvP-5" target="qTmo6rcFVAZ_YOJTTcvP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-24" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-25" value="SI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-27" value="SI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1020" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-28" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="900" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qTmo6rcFVAZ_YOJTTcvP-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qTmo6rcFVAZ_YOJTTcvP-10" target="qTmo6rcFVAZ_YOJTTcvP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

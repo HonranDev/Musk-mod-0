@@ -1,0 +1,123 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Página-1" id="qrtQK5LIPilHMb6vzQX1">
+    <mxGraphModel dx="1037" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Ejercicio10&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Escribe un programa que genere un número aleatorio del 1 al 10. Haz que el programa pregunte al usuario números hasta que acierte el número aleatorio generado. El programa debe mantener una cuenta de cuanto intentos han hecho falta hasta acertar el número cuando al usuario acierte el número aleatorio el programa mostrará por pantalla el número de intentos.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry width="650" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0W2lhq9MIhduKkVkSvYR-2" target="0W2lhq9MIhduKkVkSvYR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-2" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0W2lhq9MIhduKkVkSvYR-4" target="0W2lhq9MIhduKkVkSvYR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-4" value="const = randomNumber=Math.floor(Math.random()*10)+1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="210" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0W2lhq9MIhduKkVkSvYR-5" target="0W2lhq9MIhduKkVkSvYR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-5" value="let attempts = &#39; 0 &#39;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="210" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0W2lhq9MIhduKkVkSvYR-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-14" value="solicitar número" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="320" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0W2lhq9MIhduKkVkSvYR-16" target="0W2lhq9MIhduKkVkSvYR-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0W2lhq9MIhduKkVkSvYR-16" target="0W2lhq9MIhduKkVkSvYR-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-16" value="isNaN numero&lt;div&gt;||&lt;/div&gt;&lt;div&gt;numero &amp;lt;1&lt;/div&gt;&lt;div&gt;||&lt;/div&gt;&lt;div&gt;numero &amp;gt;10&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="410" width="220" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-17" value="Print &quot;Recuerda debe ser entre 1 y 10" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="487.5" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0W2lhq9MIhduKkVkSvYR-18" target="0W2lhq9MIhduKkVkSvYR-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0W2lhq9MIhduKkVkSvYR-18" target="0W2lhq9MIhduKkVkSvYR-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-18" value="numero === randomNumber" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="670" width="220" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="400" as="sourcePoint" />
+            <mxPoint x="480" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-34" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="520" as="sourcePoint" />
+            <mxPoint x="40" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-36" value="" style="endArrow=none;html=1;rounded=0;entryX=0.038;entryY=0.539;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="0W2lhq9MIhduKkVkSvYR-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="520" as="sourcePoint" />
+            <mxPoint x="80" y="518" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0W2lhq9MIhduKkVkSvYR-38" target="0W2lhq9MIhduKkVkSvYR-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-38" value="Attempts++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="747.5" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-39" value="Print &quot;Inténtalo de nuevo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="625" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-43" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="0W2lhq9MIhduKkVkSvYR-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="547.5" as="sourcePoint" />
+            <mxPoint x="480" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0W2lhq9MIhduKkVkSvYR-45" target="0W2lhq9MIhduKkVkSvYR-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-45" value="Print &quot; numero correcto y numero de intentos." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="960" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-47" value="FIN" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1070" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-49" value="SI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="625" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-50" value="SI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="890" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-51" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0W2lhq9MIhduKkVkSvYR-52" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="585" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

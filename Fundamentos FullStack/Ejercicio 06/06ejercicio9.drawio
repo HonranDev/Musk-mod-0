@@ -1,0 +1,74 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Página-1" id="cn0ehfwviOVgAk2ab5nI">
+    <mxGraphModel dx="1037" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O6_kb6ThFgPBT1O_7HTR-1" target="O6_kb6ThFgPBT1O_7HTR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-1" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O6_kb6ThFgPBT1O_7HTR-2" target="O6_kb6ThFgPBT1O_7HTR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-2" value="Introducir número" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O6_kb6ThFgPBT1O_7HTR-3" target="O6_kb6ThFgPBT1O_7HTR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-3" value="solicitarNumero = &#39;&amp;nbsp; &#39;;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="300" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-4" value="Print &quot;Número Inváido&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="490" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O6_kb6ThFgPBT1O_7HTR-5" target="O6_kb6ThFgPBT1O_7HTR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-5" value="Print &quot;Número&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="690" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O6_kb6ThFgPBT1O_7HTR-6" target="O6_kb6ThFgPBT1O_7HTR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O6_kb6ThFgPBT1O_7HTR-6" target="O6_kb6ThFgPBT1O_7HTR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-6" value="isNaN(numero)&lt;div&gt;numero &amp;lt;0 || numero &amp;gt;10?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="410" width="260" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-8" value="FIN" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="355" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="O6_kb6ThFgPBT1O_7HTR-12" target="O6_kb6ThFgPBT1O_7HTR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-12" value="const letras = &#39;uno&#39;, &#39;dos&#39;, &#39;tres&#39;, &#39;cuatro&#39;, &#39;cinco&#39;, &#39;seis&#39;, &#39;siete&#39;, &#39;ocho&#39;, &#39;nueve&#39;, &#39;diez&#39;;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="O6_kb6ThFgPBT1O_7HTR-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="420" as="sourcePoint" />
+            <mxPoint x="390" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="125" y="400" />
+              <mxPoint x="300" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-21" value="SI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-22" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O6_kb6ThFgPBT1O_7HTR-23" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Ejercicio9&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Escribe un programa que solicite un número al usuario (0 al 10 ) y devuelva el número escrito en letras si dicho valor introducido no está dentro del rango (0 al 10) o no es número se deberá volver a solicitar un número.&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="770" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
